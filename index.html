@@ -75,7 +75,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Streaming Drag-Oriented Interactive Video Manipulation: Drag Anything, Anytime!</title>
 
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/drag-right-svgrepo-com.svg">
@@ -114,7 +114,7 @@
   <script defer src="static/js/index.js"></script>
 
   <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
@@ -165,10 +165,10 @@
       }
     ]
   }
-  </script>
+  </script> -->
 
   <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -180,7 +180,7 @@
       "https://github.com/YOUR_GITHUB_USERNAME"
     ]
   }
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -199,8 +199,9 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <!-- TODO: Replace with your paper title -->
-              <h1 class="title is-1 publication-title">Streaming Drag-Oriented Interactive Video Manipulation: Drag
-                Anything, Anytime!</h1>
+              <h1 class="title is-1 publication-title">
+                Streaming Drag-Oriented Interactive Video Manipulation: Drag Anything, Anytime!
+              </h1>
               <div class="is-size-5 publication-authors">
                 <!-- TODO: Replace with your paper authors and their personal links -->
                 <!-- <span class="author-block">
@@ -325,12 +326,58 @@
     </section>
     <!-- End paper abstract -->
 
+    <!-- Paper pipeline -->
+    <section class="section hero is-light">
+      <div class="container is-fullhd">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-three-quarters">
+            <h2 class="title is-3">Pipeline Overview</h2>
+            <figure class="image">
+              <img src="static/images/figure1.png" alt="Pipeline Overview" loading="lazy" width="100%"/>
+            </figure>
+            <div class="content has-text-justified">
+              <p>The pipeline overview of REVEL task.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End paper pipeline -->
+
+
+    <!-- Paper method -->
+    <!-- <section class="section hero is-light">
+      <div class="container is-fullhd">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-three-quarters">
+            <h2 class="title is-3">Method</h2>
+            <figure class="image">
+              <object data="static/images/figure3.png" type="image/png" width="100%"
+                aria-label="DragStream method overview">
+                <p>Your browser does not support embedded images. <a href="static/images/figure3.png" target="_blank"
+                    rel="noopener">Download the method diagram</a>.</p>
+              </object>
+            </figure>
+            <div class="content has-text-justified">
+              <p>The method overview of DragStream.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End paper pipeline -->
 
 
     <!-- Video Grid Section -->
     <section class="section" id="video-gallery">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Visualization Results (Self-Forcing)</h2>
+      <div class="container is-fluid">
+        <h2 class="title is-3 has-text-centered">
+          Visualization Results (Self-Forcing)
+        </h2>
+
+        <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure>
 
         <!-- Auto-rendered rows go here -->
         <div id="self-forcing-gallery" aria-live="polite"></div>
@@ -345,8 +392,14 @@
 
     <!-- Video Grid Section -->
     <section class="section" id="video-gallery">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Visualization Results (Causvid)</h2>
+      <div class="container is-fluid">
+        <h2 class="title is-3 has-text-centered">
+          Visualization Results (Causvid)
+        </h2>
+
+        <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure>
 
         <!-- Auto-rendered rows go here -->
         <div id="causvid-gallery" aria-live="polite"></div>

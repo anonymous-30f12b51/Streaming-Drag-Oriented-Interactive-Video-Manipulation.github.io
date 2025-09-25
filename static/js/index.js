@@ -145,254 +145,505 @@ $(document).ready(function () {
 (() => {
     const self_forcing_rows = [
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/37/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0037/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/37/block_2_Animation_4.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0037/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/37/block_4_Animation_6.trajectory.mp4',
+                caption: 'Animated Video: 45 - 68 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/37.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 68 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/40/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0040/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/40/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 32 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0040/block_3_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/40/block_3_Animation_4.trajectory.mp4',
+                caption: 'Animated Video: 33 - 44 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/40.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 44 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/56/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0056/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/56/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0056/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/56/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/56.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/69/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0069/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '2D Rotation'
+                caption: '[Animation: 2D Rotation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/69/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0069/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/69/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/69.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/92/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0092/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '3D Rotation'
+                caption: '[Animation: 3D Rotation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/92/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0092/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/92/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/92.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/95/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0095/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '3D Rotation'
+                caption: '[Animation: 3D Rotation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/95/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0095/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: '3D Rotation'
+                caption: '[Animation: 3D Rotation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/95/block_4_Animation_6.trajectory.mp4',
+                caption: 'Animated Video: 45 - 68 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/95.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 68 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/166/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0166/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Deformation'
+                caption: '[Animation: Deformation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/166/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0166/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/166/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/166.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/321/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0321/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/321/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0321/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: '3D Rotation'
+                caption: '[Animation: 3D Rotation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/321/block_4_Animation_6.trajectory.mp4',
+                caption: 'Animated Video: 45 - 68 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/321.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 68 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/self-forcing/322/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/self-forcing/0322/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/self-forcing/322/block_2_Animation_4.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/self-forcing/0322/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/self-forcing/322/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/self-forcing/322.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         }
     ];
     const causvid_rows = [
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/causvid/16/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/causvid/0016/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/causvid/16/block_2_Animation_4.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/causvid/0016/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/causvid/16/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/causvid/16.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/causvid/22/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/causvid/0022/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/causvid/22/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/causvid/0022/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/causvid/22/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/causvid/22.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
             }
         },
         {
-            img1: {
+            video_0: {
+                src: 'static/videos/causvid/23/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
+                src: 'static/images/causvid/0023/block_2_Animation.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Animation: Translation]'
+            },
+            video_1: {
+                src: 'static/videos/causvid/23/block_2_Animation_4.trajectory.mp4',
+                caption: 'Animated Video: 21 - 56 frames'
+            },
+            img_2: {
+                src: 'static/images/causvid/0023/block_5_Animation.trajectory.2.png',
+                alt: 'Result 2',
+                caption: '[Animation: Translation]'
+            },
+            video_2: {
+                src: 'static/videos/causvid/23/block_5_Animation_7.trajectory.mp4',
+                caption: 'Animated Video: 57 - 80 frames'
+            },
+            video_all: {
+                src: 'static/videos/causvid/23.mp4',
+                caption: 'Overall Video: 0 - 80 frames'
+            }
+        },
+        {
+            video_0: {
+                src: 'static/videos/causvid/24/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
                 src: 'static/images/causvid/0024/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '2D Rotation'
+                caption: '[Animation: 2D Rotation]'
             },
-            img2: {
+            video_1: {
+                src: 'static/videos/causvid/24/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
                 src: 'static/images/causvid/0024/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
-                caption: 'Translation'
+                caption: '[Animation: Translation]'
             },
-            video: {
+            video_2: {
+                src: 'static/videos/causvid/24/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
                 src: 'static/videos/causvid/24.mp4',
-                caption: 'Animated Video'
+                caption: 'Overall Video: 0 - 56 frames'
+            }
+        },
+        {
+            video_0: {
+                src: 'static/videos/causvid/93/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
+                src: 'static/images/causvid/0093/block_2_Animation.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Animation: Deformation]'
+            },
+            video_1: {
+                src: 'static/videos/causvid/93/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
+                src: 'static/images/causvid/0093/block_4_Animation.trajectory.2.png',
+                alt: 'Result 2',
+                caption: '[Animation: 3D Rotation]'
+            },
+            video_2: {
+                src: 'static/videos/causvid/93/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
+                src: 'static/videos/causvid/93.mp4',
+                caption: 'Overall Video: 0 - 56 frames'
+            }
+        },
+        {
+            video_0: {
+                src: 'static/videos/causvid/95/block_0_2_slow.mp4',
+                caption: 'Generated Video: 0 - 20 frames'
+            },
+            img_1: {
+                src: 'static/images/causvid/0095/block_2_Animation.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Animation: Deformation]'
+            },
+            video_1: {
+                src: 'static/videos/causvid/95/block_2_Animation_3.trajectory.mp4',
+                caption: 'Animated Video: 21 - 44 frames'
+            },
+            img_2: {
+                src: 'static/images/causvid/0095/block_4_Animation.trajectory.2.png',
+                alt: 'Result 2',
+                caption: '[Animation: 3D Rotation]'
+            },
+            video_2: {
+                src: 'static/videos/causvid/95/block_4_Animation_5.trajectory.mp4',
+                caption: 'Animated Video: 45 - 56 frames'
+            },
+            video_all: {
+                src: 'static/videos/causvid/95.mp4',
+                caption: 'Overall Video: 0 - 56 frames'
             }
         }
     ];
 
-    const imageCol = ({ src, alt, caption }) => `
-    <div class="column is-one-third">
+//     const imageCol3 = ({ src, alt, caption }) => `
+//     <div class="column is-one-third">
+//       <figure class="image">
+//         <img src="${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;">
+//       </figure>
+//       <p class="is-size-6 mt-2">${caption ?? ''}</p>
+//     </div>
+//   `;
+
+//     const videoCol3 = ({ src, caption }) => `
+//     <div class="column is-one-third">
+//       <video controls muted playsinline preload="metadata" style="width:100%;height:auto;border-radius:8px;">
+//         <source src="${src}" type="video/mp4">
+//       </video>
+//       <p class="is-size-6 mt-2">${caption ?? ''}</p>
+//     </div>
+//   `;
+
+    const imageCol_6 = (item = {}, options = {}) => {
+    if (!item || !item.src) return '';
+    const { src, alt, caption } = item;
+    const captionColor = options.captionColor ?? item.captionColor; // item-level override also supported
+    const captionStyle = captionColor ? ` style="color:${captionColor}"` : '';
+    return `
+    <div class="column is-one-sixth">
       <figure class="image">
-        <img src="${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;">
+        <img src="${src}" alt="${alt ?? ''}" loading="lazy" style="width:100%;height:auto;border-radius:8px;"
+             onerror="this.onerror=null; this.closest('.column')?.remove();">
       </figure>
-      <p class="is-size-6 mt-2">${caption ?? ''}</p>
+      <p class="is-size-6 mt-2"${captionStyle}>${caption ?? ''}</p>
     </div>
   `;
+    };
 
-    const videoCol = ({ src, caption }) => `
-    <div class="column is-one-third">
-      <video controls muted playsinline preload="metadata" style="width:100%;height:auto;border-radius:8px;">
+    const videoCol_6 = (item = {}, options = {}) => {
+    if (!item || !item.src) return '';
+    const { src, caption } = item;
+    const captionColor = options.captionColor ?? item.captionColor; // item-level override also supported
+    const captionStyle = captionColor ? ` style="color:${captionColor}"` : '';
+    return `
+    <div class="column is-one-sixth">
+      <video controls muted playsinline preload="metadata"
+            style="display:block;width:100%;height:auto;border-radius:8px;"
+            onerror="this.onerror=null; this.closest('.column')?.remove();">
         <source src="${src}" type="video/mp4">
       </video>
-      <p class="is-size-6 mt-2">${caption ?? ''}</p>
+      <p class="is-size-6 mt-2"${captionStyle}>${caption ?? ''}</p>
     </div>
   `;
+    };
 
-    function renderSelfForcingGallery(data) {
-        const mount = document.getElementById('self-forcing-gallery');
+    function renderVideoGallery_6(data, galleryId) {
+        const mount = document.getElementById(galleryId);
         if (!mount) return;
 
+        const CAPTION_COLOR = '#ff0000ff';
         const html = data.map(row => `
       <div class="columns is-multiline">
-        ${imageCol(row.img1)}
-        ${imageCol(row.img2)}
-        ${videoCol(row.video)}
+        ${videoCol_6(row.video_0)}
+        ${imageCol_6(row.img_1, { captionColor: CAPTION_COLOR })}
+        ${videoCol_6(row.video_1)}
+        ${imageCol_6(row.img_2, { captionColor: CAPTION_COLOR })}
+        ${videoCol_6(row.video_2)}
+        ${videoCol_6(row.video_all)}
       </div>
     `).join('\n');
 
         mount.innerHTML = html;
     }
 
-    function renderCausVidGallery(data) {
-        const mount = document.getElementById('causvid-gallery');
-        if (!mount) return;
-
-        const html = data.map(row => `
-      <div class="columns is-multiline">
-        ${imageCol(row.img1)}
-        ${imageCol(row.img2)}
-        ${videoCol(row.video)}
-      </div>
-    `).join('\n');
-
-        mount.innerHTML = html;
-    }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => renderSelfForcingGallery(self_forcing_rows));
-        document.addEventListener('DOMContentLoaded', () => renderCausVidGallery(causvid_rows));
+        document.addEventListener('DOMContentLoaded', () => renderVideoGallery_6(self_forcing_rows, 'self-forcing-gallery'));
+        document.addEventListener('DOMContentLoaded', () => renderVideoGallery_6(causvid_rows, 'causvid-gallery'));
     } else {
-        renderSelfForcingGallery(self_forcing_rows);
-        renderCausVidGallery(causvid_rows);
+        renderVideoGallery_6(self_forcing_rows, 'self-forcing-gallery');
+        renderVideoGallery_6(causvid_rows, 'causvid-gallery');
     }
 })();
