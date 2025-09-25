@@ -1,0 +1,4 @@
+# all the images and videos are binary files
+*.png binary
+*.jpg binary
+*.mp4 binary
