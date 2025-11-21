@@ -333,7 +333,7 @@
           <div class="column is-three-quarters">
             <h2 class="title is-3">Pipeline Overview</h2>
             <figure class="image">
-              <img src="static/images/figure1.png" alt="Pipeline Overview" loading="lazy" width="100%"/>
+              <img src="static/images/figure1.png" alt="Pipeline Overview" loading="lazy" width="100%" />
             </figure>
             <div class="content has-text-justified">
               <p>The pipeline overview of REVEL task.</p>
@@ -367,6 +367,217 @@
     </section> -->
     <!-- End paper pipeline -->
 
+
+
+    <!-- Video Grid Section -->
+    <section class="section">
+      <div class="container is-fullhd">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">
+              Section I: Additional Results on Long Videos (to Reviewer <font color="blue">XFrK</font>)
+            </h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                Our method demonstrates strong performance in long video manipulation.
+                As shown in the visualizations results below, despite the autoregressively accumulated errors,
+                our method can still effectively support drag-based manipulation at 5s, 10s, and 20s timestamps.
+                Drag operations induced by our approach do not degrade the quality of manipulated video frames noticeably
+                compared with the baseline.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="max-width:1580px;">
+
+        <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure>
+
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-long-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+
+    <!-- Video Grid Section -->
+    <section class="section">
+      <div class="container is-fullhd">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">
+              Section II: Results on Bidirectional Model (to Reviewer <font color="blue">XFrK</font>)
+            </h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                Although our method is designed for autoregressive video diffusion models,
+                it can also be applied to bidirectional video diffusion models such as Wan2.1.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="max-width:580px;">
+        <!-- <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure> -->
+
+        <!-- Auto-rendered rows go here -->
+        <div id="wan-2-1-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+
+    <!-- Video Grid Section -->
+    <section class="section">
+      <div class="container is-fullhd">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">
+              Section III: Conflict between Text Prompts and Drag (to Reviewer <font color="blue">XFrK</font>)
+            </h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                If there exists a conflict between text prompts and drag operations,
+                our method prioritizes drag-based manipulation to ensure user intent is preserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="max-width:1380px;">
+        <!-- <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure> -->
+
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-contradict-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+
+    <!-- Video Grid Section -->
+    <section class="section">
+      <h2 class="title is-3 has-text-centered">
+        Section IV: Edit Operations Accumulate over Long Sequences (to Reviewer <font color="blue">gQWk</font>)
+      </h2>
+      <div class="container" style="max-width:880px;">
+        <!-- <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure> -->
+
+        <figure class="image">
+          <img src="static/images/distribution_drift.png" alt="Distribution Drift" loading="lazy" width="100%" />
+        </figure>
+        <div class="content has-text-justified">
+          <p>Distribution Drift comparison over long-term drag edits. Our ADSR significantly decreases the distribution
+            drift even in long-term dragging.</p>
+        </div>
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-distribution-drift-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+
+    <!-- Video Grid Section -->
+    <section class="section" id="video-gallery">
+      <h2 class="title is-3 has-text-centered">
+        Section V: Demonstration of Occlusion and Reappearance (to Reviewer <font color="blue">gQWk</font>)
+      </h2>
+
+      <div class="container" style="max-width:1180px;">
+        <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure>
+
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-occlusion-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+    <!-- Video Grid Section -->
+    <section class="section" id="video-gallery">
+      <div class="container" style="max-width:1180px;">
+        <h2 class="title is-3 has-text-centered">
+          Section VI: Demonstration of Moving out of frame (to Reviewer <font color="blue">gQWk</font>)
+        </h2>
+
+        <figure class="image" style="margin: auto;">
+          <img src="static/images/arrow_1.png" alt="Arrow" loading="lazy" width="100%" />
+        </figure>
+
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-move-out-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+    <!-- Video Grid Section -->
+    <section class="section" id="video-gallery">
+      <h2 class="title is-3 has-text-centered">
+        Section VII: Editing Completedly Generated Videos (to Reviewer <font color="blue">y2YG</font>)
+      </h2>
+
+      <div class="container" style="max-width:1380px;">
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-previous-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
+
+    <!-- Video Grid Section -->
+    <section class="section" id="video-gallery">
+      <h2 class="title is-3 has-text-centered">
+        Section VIII: Failure Cases (to Reviewer <font color="blue">y2YG</font>)
+      </h2>
+
+      <div class="container" style="max-width:1180px;">
+        <!-- Auto-rendered rows go here -->
+        <div id="self-forcing-failure-gallery" aria-live="polite"></div>
+
+        <noscript>
+          <p>Please enable JavaScript to view the gallery.</p>
+        </noscript>
+      </div>
+    </section>
+    <!-- End Video Grid Section -->
 
     <!-- Video Grid Section -->
     <section class="section" id="video-gallery">
@@ -416,14 +627,14 @@
     <!-- <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container"> -->
-          <!-- Paper video. -->
-          <!-- <h2 class="title is-3">Video Presentation</h2>
+    <!-- Paper video. -->
+    <!-- <h2 class="title is-3">Video Presentation</h2>
           <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths"> -->
 
-              <!-- <div class="publication-video"> -->
-                <!-- TODO: Replace with your YouTube video ID -->
-                <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0"
+    <!-- <div class="publication-video"> -->
+    <!-- TODO: Replace with your YouTube video ID -->
+    <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0"
                   allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
             </div>
@@ -444,8 +655,8 @@
         <div class="container">
           <h2 class="title">Poster</h2> -->
 
-          <!-- TODO: Replace with your poster PDF -->
-          <!-- <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
+    <!-- TODO: Replace with your poster PDF -->
+    <!-- <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
 
         </div>

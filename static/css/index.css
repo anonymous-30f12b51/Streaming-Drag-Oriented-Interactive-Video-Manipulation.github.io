@@ -750,22 +750,50 @@ a:focus {
 }
 
 @media screen and (min-width: 1024px) {
+  #self-forcing-failure-gallery .columns > .column:nth-child(3),
+  #self-forcing-contradict-gallery .columns > .column:nth-child(4),
+  #self-forcing-previous-gallery .columns > .column:nth-child(1),
+  #self-forcing-previous-gallery .columns > .column:nth-child(5),
+  #self-forcing-move-out-gallery .columns > .column:nth-child(3),
+  #self-forcing-occlusion-gallery .columns > .column:nth-child(3),
+  #self-forcing-long-gallery .columns > .column:nth-child(5),
   #self-forcing-gallery .columns > .column:nth-child(5),
   #causvid-gallery .columns > .column:nth-child(5) {
     border-right: 3px solid #444444; /* adjust color as needed */
     padding-right: 1.25rem;       /* space from the divider */
   }
+  #self-forcing-failure-gallery .columns > .column:nth-child(4),
+  #self-forcing-contradict-gallery .columns > .column:nth-child(5),
+  #self-forcing-previous-gallery .columns > .column:nth-child(2),
+  #self-forcing-previous-gallery .columns > .column:nth-child(6),
+  #self-forcing-move-out-gallery .columns > .column:nth-child(4),
+  #self-forcing-occlusion-gallery .columns > .column:nth-child(4),
+  #self-forcing-long-gallery .columns > .column:nth-child(6),
   #self-forcing-gallery .columns > .column:nth-child(6),
   #causvid-gallery .columns > .column:nth-child(6) {
     border-left: 3px solid #444444; /* adjust color as needed */
     padding-left: 1.25rem;          /* space from the divider */
   }
+  #wan-2-1-gallery .columns > .column:nth-child(1),
+  #self-forcing-failure-gallery .columns > .column:nth-child(2),
+  #self-forcing-contradict-gallery .columns > .column:nth-child(3),
+  #self-forcing-previous-gallery .columns > .column:nth-child(2),
+  #self-forcing-previous-gallery .columns > .column:nth-child(3),
+  #self-forcing-previous-gallery .columns > .column:nth-child(4),
+  #self-forcing-previous-gallery .columns > .column:nth-child(5),
+  #self-forcing-move-out-gallery .columns > .column:nth-child(2),
+  #self-forcing-occlusion-gallery .columns > .column:nth-child(2),
+  #self-forcing-long-gallery .columns > .column:nth-child(3),
   #self-forcing-gallery .columns > .column:nth-child(2),
   #self-forcing-gallery .columns > .column:nth-child(4),
   #causvid-gallery .columns > .column:nth-child(2),
   #causvid-gallery .columns > .column:nth-child(4) {
     background-color: #edf1bc;
     /* border-radius: var(--border-radius); */
+  }
+
+  #self-forcing-previous-gallery .columns > .column:nth-child(4){
+    max-width: 40px;
   }
 }
 

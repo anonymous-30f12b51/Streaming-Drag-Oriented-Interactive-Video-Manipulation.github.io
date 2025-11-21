@@ -1,0 +1,2 @@
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-occlusion\174\block_0_2_slow.mp4'
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-occlusion\174\block_2_Animation_5.trajectory.mp4'

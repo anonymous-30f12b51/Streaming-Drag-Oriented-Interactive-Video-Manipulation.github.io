@@ -1,0 +1,3 @@
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-long\92-2\block_0_27.mp4'
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-long\92-2\block_27_Animation_29.trajectory.mp4'
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-long\92-2\block_29_32.mp4'
