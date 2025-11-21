@@ -955,7 +955,7 @@ $(document).ready(function () {
     ];
     const self_forcing_contradict_rows = [
         {
-            text_0: '... <span style="color: blue;">gazing at the flame.</span> ...',
+            text_0: '... <span style="color: blue;">gazing at the flame</span> ...',
             video_0: {
                 src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2_slow.mp4',
                 caption: 'Generated Video: 0 - 20 frames'
@@ -975,7 +975,7 @@ $(document).ready(function () {
             },
         },
         {
-            text_0: '... <span style="color: blue;">The vehicle stays tightly to the right side of the path.</span> ...',
+            text_0: '... <span style="color: blue;">the vehicle stays tightly to the right side of the path</span> ...',
             video_0: {
                 src: 'static/videos/self-forcing-contradict/17/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 22 s'
@@ -995,7 +995,7 @@ $(document).ready(function () {
             },
         },
         {
-            text_0: '... <span style="color: blue;">His eyes are fixed on the left side of the scene.</span> ...',
+            text_0: '... <span style="color: blue;">his eyes are fixed on the left side of the scene</span> ...',
             video_0: {
                 src: 'static/videos/self-forcing-contradict/29/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames'
@@ -1015,7 +1015,7 @@ $(document).ready(function () {
             },
         },
         {
-            text_0: '... <span style="color: blue;">She is looking to the right side of the scene.</span> ...',
+            text_0: '... <span style="color: blue;">she is looking to the right side of the scene</span> ...',
             video_0: {
                 src: 'static/videos/self-forcing-contradict/95/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames'
