@@ -146,7 +146,7 @@ $(document).ready(function () {
     const self_forcing_rows = [
         {
             video_0: {
-                src: 'static/videos/self-forcing/37/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/37/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -174,7 +174,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/40/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/40/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -202,7 +202,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/56/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/56/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -230,7 +230,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/69/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/69/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -258,7 +258,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/92/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/92/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -286,7 +286,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/95/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/95/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -314,7 +314,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/166/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/166/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -342,7 +342,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/321/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/321/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -370,7 +370,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing/322/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing/322/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -400,7 +400,7 @@ $(document).ready(function () {
     const causvid_rows = [
         {
             video_0: {
-                src: 'static/videos/causvid/16/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/16/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -428,7 +428,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/causvid/22/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/22/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -456,7 +456,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/causvid/23/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/23/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -484,7 +484,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/causvid/24/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/24/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -512,7 +512,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/causvid/93/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/93/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -540,7 +540,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/causvid/95/block_0_2_slow.mp4',
+                src: 'static/videos/causvid/95/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -990,7 +990,7 @@ $(document).ready(function () {
                 html: '... <span style="color: blue;">gazing at the flame</span> ...',
             },
             video_0: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -1000,11 +1000,11 @@ $(document).ready(function () {
                 captionColor: '#ff0000',
             },
             video_1: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_2_Animation_4.trajectory_slow.mp4',
+                src: 'static/videos/self-forcing-contradict/4-contradict/block_2_Animation_4.trajectory.mp4',
                 caption: 'Animated Video: 20 - 44 frames',
             },
             video_all: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2_4_slow.mp4',
+                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2_4.mp4',
                 caption: 'Overall Video: 0 - 44 frames',
             },
         },
@@ -1123,33 +1123,19 @@ $(document).ready(function () {
     const self_forcing_distribution_drift_rows = [
         {
             video_0: {
-                src: 'static/videos/self-forcing-distribution-drift/40-normalized/all.trajectory.mp4',
-                caption: 'ADSR + Drag (Ours)',
+                src: 'static/videos/self-forcing-distribution-drift/0040_ema.mp4',
+                caption: 'Ref + w/o Drag',
             },
             video_1: {
-                src: 'static/videos/self-forcing-distribution-drift/40-unnormalized/all.trajectory.mp4',
-                caption: 'Drag',
+                src: 'static/videos/self-forcing-distribution-drift/40-normalized/all.trajectory_0_164.mp4',
+                caption: 'w/ ADSR + Drag (Ours)',
+            },
+            video_2: {
+                src: 'static/videos/self-forcing-distribution-drift/40-unnormalized/all.trajectory_0_164.mp4',
+                caption: 'w/o ADSR + Drag',
             },
         },
     ];
-
-    //     const imageCol3 = ({ src, alt, caption }) => `
-    //     <div class="column is-one-third">
-    //       <figure class="image">
-    //         <img src="${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;">
-    //       </figure>
-    //       <p class="is-size-6 mt-2">${caption ?? ''}</p>
-    //     </div>
-    //   `;
-
-    //     const videoCol3 = ({ src, caption }) => `
-    //     <div class="column is-one-third">
-    //       <video controls muted playsinline preload="metadata" style="width:100%;height:auto;border-radius:8px;">
-    //         <source src="${src}" type="video/mp4">
-    //       </video>
-    //       <p class="is-size-6 mt-2">${caption ?? ''}</p>
-    //     </div>
-    //   `;
 
 
     // Helper: decide Bulma column class/style from total columns requested
