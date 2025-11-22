@@ -770,7 +770,7 @@ $(document).ready(function () {
     const self_forcing_occlusion_rows = [
         {
             video_0: {
-                src: 'static/videos/self-forcing-occlusion/174/block_0_2_slow.mp4',
+                src: 'static/videos/self-forcing-occlusion/174/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -790,7 +790,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing-occlusion/322/block_0_4_slow.mp4',
+                src: 'static/videos/self-forcing-occlusion/322/block_0_4.mp4',
                 caption: 'Generated Video: 0 - 44 frames',
             },
             image_1: {
@@ -812,7 +812,7 @@ $(document).ready(function () {
     const self_forcing_move_out_rows = [
         {
             video_0: {
-                src: 'static/videos/self-forcing-move-out/174/block_2_Animation_4_slow.mp4',
+                src: 'static/videos/self-forcing-move-out/174/block_2_Animation_4.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
@@ -832,7 +832,7 @@ $(document).ready(function () {
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing-move-out/322/block_2_Animation_4_slow.mp4',
+                src: 'static/videos/self-forcing-move-out/322/block_2_Animation_4.mp4',
                 caption: 'Generated Video: 0 - 44 frames',
             },
             image_1: {
@@ -1081,7 +1081,7 @@ $(document).ready(function () {
     const self_forcing_failure_rows = [
         {
             video_0: {
-                src: 'static/videos/self-forcing-failure/93/block_0_3_slow.mp4',
+                src: 'static/videos/self-forcing-failure/93/block_0_3.mp4',
                 caption: 'Generated Video: 0 - 32 frames',
             },
             image_1: {
@@ -1091,17 +1091,17 @@ $(document).ready(function () {
                 captionColor: '#ff0000',
             },
             video_1: {
-                src: 'static/videos/self-forcing-failure/93/block_3_Animation_6.trajectory_slow.mp4',
+                src: 'static/videos/self-forcing-failure/93/block_3_Animation_6.trajectory.mp4',
                 caption: 'Animated Video: 32 - 68 frames',
             },
             video_all: {
-                src: 'static/videos/self-forcing-failure/93/concat_93_slow.mp4',
+                src: 'static/videos/self-forcing-failure/93/concat_93.mp4',
                 caption: 'Overall Video: 0 - 68 frames',
             },
         },
         {
             video_0: {
-                src: 'static/videos/self-forcing-failure/222/block_0_3_slow.mp4',
+                src: 'static/videos/self-forcing-failure/222/block_0_3.mp4',
                 caption: 'Generated Video: 0 - 32 frames',
             },
             image_1: {
@@ -1111,11 +1111,11 @@ $(document).ready(function () {
                 captionColor: '#ff0000',
             },
             video_1: {
-                src: 'static/videos/self-forcing-failure/222/block_3_Animation_6.trajectory_slow.mp4',
+                src: 'static/videos/self-forcing-failure/222/block_3_Animation_6.trajectory.mp4',
                 caption: 'Animated Video: 32 - 68 frames',
             },
             video_all: {
-                src: 'static/videos/self-forcing-failure/222/concat_222_slow.mp4',
+                src: 'static/videos/self-forcing-failure/222/concat_222.mp4',
                 caption: 'Overall Video: 0 - 68 frames',
             },
         },
