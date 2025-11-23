@@ -1013,7 +1013,7 @@ $(document).ready(function () {
             image_2: {
                 src: 'static/images/wan2.1/29/block_0_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '[Animation: Translation]',
+                caption: '[Animation: 3D Rotation]',
                 captionColor: '#ff0000',
             },
             video_2: {
