@@ -153,6 +153,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0037/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/37/block_2_Animation_4.trajectory.mp4',
@@ -162,6 +163,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0037/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/37/block_4_Animation_6.trajectory.mp4',
@@ -181,6 +183,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0040/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/40/block_2_Animation_3.trajectory.mp4',
@@ -190,6 +193,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0040/block_3_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/40/block_3_Animation_4.trajectory.mp4',
@@ -209,6 +213,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0056/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/56/block_2_Animation_3.trajectory.mp4',
@@ -218,6 +223,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0056/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/56/block_4_Animation_5.trajectory.mp4',
@@ -237,6 +243,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0069/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: 2D Rotation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/69/block_2_Animation_3.trajectory.mp4',
@@ -246,6 +253,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0069/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/69/block_4_Animation_5.trajectory.mp4',
@@ -265,6 +273,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0092/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/92/block_2_Animation_3.trajectory.mp4',
@@ -274,6 +283,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0092/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/92/block_4_Animation_5.trajectory.mp4',
@@ -293,6 +303,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0095/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/95/block_2_Animation_3.trajectory.mp4',
@@ -302,6 +313,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0095/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/95/block_4_Animation_6.trajectory.mp4',
@@ -321,6 +333,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0166/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Deformation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/166/block_2_Animation_3.trajectory.mp4',
@@ -330,6 +343,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0166/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/166/block_4_Animation_5.trajectory.mp4',
@@ -349,6 +363,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0321/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/321/block_2_Animation_3.trajectory.mp4',
@@ -358,6 +373,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0321/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/321/block_4_Animation_6.trajectory.mp4',
@@ -377,6 +393,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0322/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/self-forcing/322/block_2_Animation_4.trajectory.mp4',
@@ -386,6 +403,7 @@ $(document).ready(function () {
                 src: 'static/images/self-forcing/0322/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/self-forcing/322/block_4_Animation_5.trajectory.mp4',
@@ -407,6 +425,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0016/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/16/block_2_Animation_4.trajectory.mp4',
@@ -416,6 +435,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0016/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/16/block_4_Animation_5.trajectory.mp4',
@@ -435,6 +455,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0022/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/22/block_2_Animation_3.trajectory.mp4',
@@ -444,6 +465,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0022/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/22/block_4_Animation_5.trajectory.mp4',
@@ -463,6 +485,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0023/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/23/block_2_Animation_4.trajectory.mp4',
@@ -472,6 +495,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0023/block_5_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/23/block_5_Animation_7.trajectory.mp4',
@@ -491,6 +515,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0024/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: 2D Rotation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/24/block_2_Animation_3.trajectory.mp4',
@@ -500,6 +525,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0024/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/24/block_4_Animation_5.trajectory.mp4',
@@ -519,6 +545,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0093/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Deformation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/93/block_2_Animation_3.trajectory.mp4',
@@ -528,6 +555,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0093/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/93/block_4_Animation_5.trajectory.mp4',
@@ -547,6 +575,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0095/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Deformation]',
+                captionColor: '#ff0000',
             },
             video_1: {
                 src: 'static/videos/causvid/95/block_2_Animation_3.trajectory.mp4',
@@ -556,6 +585,7 @@ $(document).ready(function () {
                 src: 'static/images/causvid/0095/block_4_Animation.trajectory.2.png',
                 alt: 'Result 2',
                 caption: '[Animation: 3D Rotation]',
+                captionColor: '#ff0000',
             },
             video_2: {
                 src: 'static/videos/causvid/95/block_4_Animation_5.trajectory.mp4',
@@ -958,15 +988,13 @@ $(document).ready(function () {
                 src: 'static/videos/wan2.1/8/00008.trajectory.mp4',
                 caption: 'Edited Video: 0 - 24 frames',
             },
-        },
-        {
-            image_1: {
+            image_2: {
                 src: 'static/images/wan2.1/40/block_0_Animation.trajectory.2.png',
                 alt: 'Result 1',
                 caption: '[Animation: Translation]',
                 captionColor: '#ff0000',
             },
-            video_1: {
+            video_2: {
                 src: 'static/videos/wan2.1/40/00040.trajectory.mp4',
                 caption: 'Edited Video: 0 - 24 frames',
             },
@@ -982,29 +1010,39 @@ $(document).ready(function () {
                 src: 'static/videos/wan2.1/117/00117.trajectory.mp4',
                 caption: 'Edited Video: 0 - 24 frames',
             },
+            image_2: {
+                src: 'static/images/wan2.1/29/block_0_Animation.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Animation: Translation]',
+                captionColor: '#ff0000',
+            },
+            video_2: {
+                src: 'static/videos/wan2.1/29/00029.trajectory.mp4',
+                caption: 'Edited Video: 0 - 24 frames',
+            },
         },
     ];
     const self_forcing_contradict_rows = [
         {
             text_0: {
-                html: '... <span style="color: blue;">gazing at the flame</span> ...',
+                html: '... <span style="color: blue;">candle is positioned on the left side</span> ...',
             },
             video_0: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2.mp4',
+                src: 'static/videos/self-forcing-contradict/4/block_0_2.mp4',
                 caption: 'Generated Video: 0 - 20 frames',
             },
             image_1: {
-                src: 'static/images/self-forcing-contradict/4-contradict/block_2_Animation.trajectory.2.png',
+                src: 'static/images/self-forcing-contradict/4/block_2_Animation.trajectory.2.png',
                 alt: 'Result 1',
-                caption: '[Animation: Translation] <br> move the gaze to the right',
+                caption: '[Animation: Translation] <br> move to the middle',
                 captionColor: '#ff0000',
             },
             video_1: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_2_Animation_4.trajectory.mp4',
+                src: 'static/videos/self-forcing-contradict/4/block_2_Animation_4.trajectory.mp4',
                 caption: 'Animated Video: 20 - 44 frames',
             },
             video_all: {
-                src: 'static/videos/self-forcing-contradict/4-contradict/block_0_2_4.mp4',
+                src: 'static/videos/self-forcing-contradict/4/concat_4.mp4',
                 caption: 'Overall Video: 0 - 44 frames',
             },
         },
@@ -1401,7 +1439,7 @@ $(document).ready(function () {
         renderGrid(self_forcing_previous_rows, 'self-forcing-previous-gallery',
             ['Completedly Generated Video', ' ', ' ', ' ', ' ', 'Edited Video']);
         renderGrid(wan_2_1_rows, 'wan-2-1-gallery',
-            ['Manipulation', 'Manipulated Video']);
+            ['Manipulation', 'Manipulated Video', 'Manipulation', 'Manipulated Video']);
         renderGrid(self_forcing_contradict_rows, 'self-forcing-contradict-gallery',
             ['Conflicted Text', 'Generated Video', 'Manipulation', 'Manipulated Video', 'Overall Video']);
         renderGrid(self_forcing_distribution_drift_rows, 'self-forcing-distribution-drift-gallery');

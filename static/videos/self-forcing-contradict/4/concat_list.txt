@@ -1,0 +1,2 @@
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-contradict\4\block_0_2.mp4'
+file 'F:\AI\video-generation\autoregressive-interactive-video-generation\webpage\static\videos\self-forcing-contradict\4\block_2_Animation_4.trajectory.mp4'
