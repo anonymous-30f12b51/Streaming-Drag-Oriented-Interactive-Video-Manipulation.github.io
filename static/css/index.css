@@ -753,6 +753,8 @@ a:focus {
   #wan-2-1-gallery .columns > .column:nth-child(2),
   #self-forcing-failure-gallery .columns > .column:nth-child(3),
   #self-forcing-contradict-gallery .columns > .column:nth-child(4),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(1),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(5),
   #self-forcing-previous-gallery .columns > .column:nth-child(1),
   #self-forcing-previous-gallery .columns > .column:nth-child(5),
   #self-forcing-move-out-gallery .columns > .column:nth-child(3),
@@ -766,6 +768,8 @@ a:focus {
   #wan-2-1-gallery .columns > .column:nth-child(3),
   #self-forcing-failure-gallery .columns > .column:nth-child(4),
   #self-forcing-contradict-gallery .columns > .column:nth-child(5),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(2),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(6),
   #self-forcing-previous-gallery .columns > .column:nth-child(2),
   #self-forcing-previous-gallery .columns > .column:nth-child(6),
   #self-forcing-move-out-gallery .columns > .column:nth-child(4),
@@ -780,6 +784,10 @@ a:focus {
   #wan-2-1-gallery .columns > .column:nth-child(3),
   #self-forcing-failure-gallery .columns > .column:nth-child(2),
   #self-forcing-contradict-gallery .columns > .column:nth-child(3),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(2),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(3),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(4),
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(5),
   #self-forcing-previous-gallery .columns > .column:nth-child(2),
   #self-forcing-previous-gallery .columns > .column:nth-child(3),
   #self-forcing-previous-gallery .columns > .column:nth-child(4),
@@ -795,6 +803,7 @@ a:focus {
     /* border-radius: var(--border-radius); */
   }
 
+  #self-forcing-previous-track-gallery .columns > .column:nth-child(4),
   #self-forcing-previous-gallery .columns > .column:nth-child(4){
     max-width: 40px;
   }

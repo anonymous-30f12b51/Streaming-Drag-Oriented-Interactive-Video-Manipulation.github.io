@@ -976,6 +976,101 @@ $(document).ready(function () {
             },
         },
     ];
+    const self_forcing_previous_track_rows = [
+        {
+            video_0: {
+                src: 'static/videos/self-forcing-previous/6/0006_ema_21_80_slow.mp4',
+                caption: 'a video containing 60 frames',
+            },
+            image_1: {
+                src: 'static/images/self-forcing-previous-track/6/block_2_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (10th frame)',
+                captionColor: '#ff0000',
+            },
+            image_2: {
+                src: 'static/images/self-forcing-previous-track/6/block_3_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (20th frame)',
+                captionColor: '#ff0000',
+            },
+            text_0:{
+                text: ' ... ',
+            },
+            image_3: {
+                src: 'static/images/self-forcing-previous-track/6/block_6_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (50th frame)',
+                captionColor: '#ff0000',
+            },
+            video_all: {
+                src: 'static/videos/self-forcing-previous-track/6/block_0_7_Drag_7_21_80_slow.mp4',
+                caption: 'Edited Video: 0 - 60 frames',
+            },
+        },
+        {
+            video_0: {
+                src: 'static/videos/self-forcing-previous/23/0023_ema_21_80_slow.mp4',
+                caption: 'a video containing 60 frames',
+            },
+            image_1: {
+                src: 'static/images/self-forcing-previous-track/23/block_2_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (10th frame)',
+                captionColor: '#ff0000',
+            },
+            image_2: {
+                src: 'static/images/self-forcing-previous-track/23/block_3_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (20th frame)',
+                captionColor: '#ff0000',
+            },
+            text_0:{
+                text: ' ... ',
+            },
+            image_3: {
+                src: 'static/images/self-forcing-previous-track/23/block_6_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: Translation] (50th frame)',
+                captionColor: '#ff0000',
+            },
+            video_all: {
+                src: 'static/videos/self-forcing-previous-track/23/block_0_6_7_21_80_slow.mp4',
+                caption: 'Edited Video: 0 - 60 frames',
+            },
+        },
+        {
+            video_0: {
+                src: 'static/videos/self-forcing-previous/64/0064_ema_21_80_slow.mp4',
+                caption: 'a video containing 60 frames',
+            },
+            image_1: {
+                src: 'static/images/self-forcing-previous-track/64/block_3_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: 2D Rotation] (10th frame)',
+                captionColor: '#ff0000',
+            },
+            image_2: {
+                src: 'static/images/self-forcing-previous-track/64/block_5_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: 2D Rotation] (20th frame)',
+                captionColor: '#ff0000',
+            },
+            text_0:{
+                text: ' ... ',
+            },
+            image_3: {
+                src: 'static/images/self-forcing-previous-track/64/block_6_Drag.trajectory.2.png',
+                alt: 'Result 1',
+                caption: '[Editing: 2D Rotation] (50th frame)',
+                captionColor: '#ff0000',
+            },
+            video_all: {
+                src: 'static/videos/self-forcing-previous-track/64/block_0_7_Drag_7_25_80_slow.mp4',
+                caption: 'Edited Video: 0 - 60 frames',
+            },
+        },
+    ];
     const wan_2_1_rows = [
         {
             image_1: {
@@ -1437,6 +1532,8 @@ $(document).ready(function () {
         renderGrid(self_forcing_occlusion_rows, 'self-forcing-occlusion-gallery');
         renderGrid(self_forcing_move_out_rows, 'self-forcing-move-out-gallery');
         renderGrid(self_forcing_previous_rows, 'self-forcing-previous-gallery',
+            ['Completedly Generated Video', ' ', ' ', ' ', ' ', 'Edited Video']);
+        renderGrid(self_forcing_previous_track_rows, 'self-forcing-previous-track-gallery',
             ['Completedly Generated Video', ' ', ' ', ' ', ' ', 'Edited Video']);
         renderGrid(wan_2_1_rows, 'wan-2-1-gallery',
             ['Manipulation', 'Manipulated Video', 'Manipulation', 'Manipulated Video']);
